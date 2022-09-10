@@ -1,6 +1,11 @@
-#include<stdio.h>
-int main(void){
-puts(""Programming is like building a multilingual puzzle");
+#include <stdio.h>
 
-return(0);
+/**
+*This is my first commenting 
+*in C program
+*/
+int main(void)
+{
+        puts("\"Programming is like building a multilingual puzzle");
+        return (0);
 }
