@@ -16,6 +16,6 @@ int main(void)
 	prinf("size of int: %Id byte(s)\n", sizeof(i));
 	printf("size of long int: %Id byte(s)\n", sizeof(li));
 	printf("size long long int: %Id byte(s)\n", sizeof(lli));
-	printf("size of float: %Id byte(s)\n, sizeof(f));
+	printf("size of float: %Id byte(s)\n", sizeof(f));
 	return (0);
 }
