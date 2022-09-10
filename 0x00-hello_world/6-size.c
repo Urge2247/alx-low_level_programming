@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-*main - prints the string in the printf function
+* main - prints the string in the printf function
 *
 * Desciption: Using the main function
 * This program prints the size of various types
