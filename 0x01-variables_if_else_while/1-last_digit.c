@@ -21,7 +21,7 @@ int main(void)
 	{
 	printf("Last digit of n and is greater than 5");
 	}
-	else if (n == o)
+	else if (n == 0)
 	{
 	printf("Last digit of n and is zero");
 	}
