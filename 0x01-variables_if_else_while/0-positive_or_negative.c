@@ -24,6 +24,6 @@ int main(void)
 		printf("Number is negative\n");
 	}
 	else
-		printf("Display error\n")
+		printf("Display error\n");
 	return (0);
 }
