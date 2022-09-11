@@ -19,7 +19,7 @@ int main(void)
 	/* your code goes there */
 	if (n == 98)
 	{
-	printf("Last digit of 98 is 8 and is greater  than 5");
+	printf("Last digit of 98 is 8 and is greater than 5");
 	}
 	else if (n == 980)
 	{
@@ -27,7 +27,7 @@ int main(void)
 	}
 	else if (n == -98)
 	{
-	printf("Last  digit of -98 is -8 and is less than 6 and not 0");
+	printf("Last digit of -98 is -8 and is less than 6 and not 0");
 	}
 	return (0);
 }
