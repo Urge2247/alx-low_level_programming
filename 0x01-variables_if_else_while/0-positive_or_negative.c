@@ -4,27 +4,26 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/* Description: Using the main function */
 int main(void)
 {
 	int n;
-
+	printf("Enter the number:", n);
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if(n > 0)
+	if (n > 0)
 	{
-		printf ("n is positive\n");
+		printf("n is positive\n");
 	}
-	else if(n == 0)
+	else if (n == 0)
 	{
-		printf ("n is zero\n");
+		printf("n is zero\n");
 	}
-	else if(n < 0)
+	else if (n < 0)
 	{
-		printf ("n is negative\n");
+		printf("n is negative\n");
 	}
 	else
-		printf ("Display error\n");
+		printf("Display error\n");
 	return (0);
 }
