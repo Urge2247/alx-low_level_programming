@@ -17,7 +17,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n > 98)
+	if (n == 98)
 	{
 	printf("Last digit of 98 is 8 and is greater than 5");
 	}
@@ -25,7 +25,7 @@ int main(void)
 	{
 	printf("Last digit of 980 is 0 and is zero");
 	}
-	else if (n = -98)
+	else if (n == -98)
 	{
 	printf("Last digit of -98 is -8 and is less than 6 and not 0");
 	}
