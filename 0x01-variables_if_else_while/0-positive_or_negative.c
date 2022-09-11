@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)
+int main(void) /* Description: Using the main function to print */
 {
 	int n;
 
@@ -17,7 +17,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("98 is zero\n");
+		printf("0 is zero\n");
 	}
 	else if (n < 0)
 	{
