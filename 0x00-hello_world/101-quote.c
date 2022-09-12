@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
 * main - prints the string in C program
 *
