@@ -1,25 +1,16 @@
-#include <unistd.h>
-
-
+#include "main.h"
 
 /**
+ * _islower - prints whether a character is lower or not
  *
- *  * _putchar - writes the character c to stdout
- *
- *   * @c: The character to print
- *
- *    *
- *
- *     * Return: On success 1.
- *
- *      * On error, -1 is returned, and errno is set appropriately.
- *
- *       */
-
-int _putchar(char c)
-
+ * Return: 0
+ */
+int _islower(int c)
 {
 
-		return (write(1, &c, 1));
+	if (ch >= 'a' && ch <= 'z')
+		return (1);
+	else
+		return (0);
 
 }
