@@ -2,11 +2,11 @@
 
 /**
  *
- * main - prints alphabets in lowercase
+ * print_alphabet - prints alphabets in lowercase
  *
  * Return: Always return 0
  */
-int main(void)
+void print_alphabet(void)
 {
 
 	char ch;
