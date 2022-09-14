@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * main - writes the character c to stdout
- * @c: The character to print
- * Return: On success 1.
+ * 
+ * Return: Always return 0
  */
 int main(void)
 {
