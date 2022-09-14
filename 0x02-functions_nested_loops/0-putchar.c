@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - writes the character c to stdout
- * 
+ *
  * Return: Always return 0
  */
 int main(void)
