@@ -1,25 +1,21 @@
-#include <unistd.h>
-
-
+#include "main.h"
 
 /**
  *
- *  * _putchar - writes the character c to stdout
+ * main - prints alphabets in lowercase
  *
- *   * @c: The character to print
- *
- *    *
- *
- *     * Return: On success 1.
- *
- *      * On error, -1 is returned, and errno is set appropriately.
- *
- *       */
-
-int _putchar(char c)
-
+ * Return: Always return 0
+ */
+int main(void)
 {
 
-		return (write(1, &c, 1));
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
+
+	_putchar('\n');
+
+	return (0);
 
 }
