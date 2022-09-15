@@ -2,7 +2,6 @@
 /**
  * _isdigit - checks for a number 0 to 9
  * @c: int to be added to fun
- *
  * Return: 0
  */
 int _isdigit(int c)
