@@ -2,6 +2,8 @@
 /**
  * print_sign - prints the sign of a number
  *
+ *@n: Number to be passed to fun
+ *
  * Return: 0
  */
 int print_sign(int n)
