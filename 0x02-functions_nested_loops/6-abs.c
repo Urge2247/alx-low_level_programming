@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _abs - prints abs of a number
- * @r - num to be passed to fun
+ * @r - is the int number to be passed to fun
  * Return: 0
  */
 int _abs(int r)
