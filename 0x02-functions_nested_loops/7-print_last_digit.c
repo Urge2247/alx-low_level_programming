@@ -4,7 +4,7 @@
  * @r: int number to be passed to the func
  * Return: 0
  */
-int print_last_digit(int)
+int print_last_digit(int r)
 {
 	int last_digit = r % 10;
 
