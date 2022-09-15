@@ -2,10 +2,10 @@
 #include <stdio.h>
 /**
  * _abs - prints abs of a number
- *@c - num to be passed to fun
+ *@r - num to be passed to fun
  * Return: 0
  */
-int _abs(int)
+int _abs(int r)
 {
 	if (r > 0 || r == 0)
 	{
