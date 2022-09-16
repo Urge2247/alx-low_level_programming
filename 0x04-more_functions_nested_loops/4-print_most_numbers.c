@@ -12,7 +12,9 @@ void print_numbers(void)
 	for (i = 48; i < 58; i++)
 	{
 		if (i != 2 && i != 4)
+		{
 			putchar(i);
+		}
 	}
 	putchar(8);
 }
