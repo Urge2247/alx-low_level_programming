@@ -23,6 +23,5 @@ void more_numbers(void)
 		}
 	putchar(10);
 	i++;
-	c = 0;
 	}
 }
