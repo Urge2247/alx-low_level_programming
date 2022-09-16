@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - prints numbers from 0 to 9 followed
+ * @c: char to be added to fun
  * Return: 0
  */
 void print_numbers(void)
