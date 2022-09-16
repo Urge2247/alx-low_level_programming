@@ -22,6 +22,7 @@ void more_numbers(void)
 			c++;
 		}
 		putchar(10);
+		c = 0;
 		i++;
 	}
 }
