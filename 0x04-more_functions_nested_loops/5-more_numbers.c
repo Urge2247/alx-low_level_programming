@@ -15,13 +15,13 @@ void more_numbers(void)
 		{
 			if (i < 9)
 			{
-				_putchar((i / 10) + '0');
+				putchar((i / 10) + '0');
 			}
-			_putchar((i % 10) + '0');
+			putchar((i % 10) + '0');
 			c++;
 		}
 
-	_putchar('\n');
+	putchar('\n');
 	i++;
 	c = 0;
 	}
