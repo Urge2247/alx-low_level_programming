@@ -15,9 +15,7 @@ void print_numbers(void)
 		{
 			continue;
 		}
-
 		putchar(i);
 	}
-
 	putchar(10);
 }
