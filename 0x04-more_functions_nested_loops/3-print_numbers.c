@@ -3,7 +3,7 @@
 /**
 * print_numbers - prints numbers from 0 to 9
 * @i: int to be added to fun
-* Return: nothing
+* Return: return nothing
 */
 void print_numbers(void)
 {
