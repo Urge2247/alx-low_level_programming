@@ -9,7 +9,7 @@ void print_numbers(void)
 {
 	int i = 28;
 
-	while (i <= 38)
+	while (i < 38)
 	{
 		putchar(i);
 		i++;
