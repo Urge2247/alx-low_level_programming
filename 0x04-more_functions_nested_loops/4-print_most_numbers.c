@@ -14,5 +14,5 @@ void print_numbers(void)
 		if (i != 2 && i != 4)
 			putchar(i);
 	}
-	putchar(10);
+	putchar(8);
 }
