@@ -22,7 +22,7 @@ void more_numbers(void)
 			c++;
 		}
 
-	putchar('\n');
+	putchar(10);
 	i++;
 	c = 0;
 	}
