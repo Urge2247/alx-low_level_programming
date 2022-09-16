@@ -16,5 +16,5 @@ void print_numbers(void)
 			putchar(i);
 		}
 	}
-	putchar(8);
+	putchar(10);
 }
