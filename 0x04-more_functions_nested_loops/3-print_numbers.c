@@ -10,9 +10,9 @@ void print_numbers(void)
 
 	while (i <= 38)
 	{
-		_putchar(i);
+		putchar(i);
 		i++;
 	}
 
-_putchar('\n');
+	putchar(10);
 }
