@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * print_diagonal - prints a diagonal
-* @n: an int to be added
+* @n: a number of type int to be added
 * Return: 0
 */
 void print_diagonal(int n)
