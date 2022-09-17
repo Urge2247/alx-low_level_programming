@@ -3,7 +3,7 @@
 /**
  * print_diagonal - prints a diagonal
  * @n: an int to be added
- * Return: 0
+ * Return: returns void
  */
 void print_diagonal(int n)
 {
