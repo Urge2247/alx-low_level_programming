@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_diagonal - prints a diagonal
- *
- * @n: an int to be added
- *
- * Return: 0
- */
+* print_diagonal - prints a diagonal
+* @n: an int to be added
+* Return: 0
+*/
 void print_diagonal(int n)
 {
 	int l, sp;
