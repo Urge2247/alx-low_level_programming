@@ -1,6 +1,7 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * print_line - function that checks for uppercase character.
+ * print_line - print straight line.
  *
  * @n: is the integer for the paramaters of my function
  *
