@@ -2,8 +2,10 @@
 #include "main.h"
 /**
  * print_diagonal - prints a diagonal
+ *
  * @n: an int to be added
- * Return: returns void
+ *
+ * Return: 0
  */
 void print_diagonal(int n)
 {
