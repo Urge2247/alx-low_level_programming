@@ -14,11 +14,11 @@ void more_numbers(void)
 	{
 		while (c <= 14)
 		{
-			if (i > 9)
+			if (c > 9)
 			{
-				putchar((i / 10) + '0');
+				putchar((c / 10) + '0');
 			}
-			putchar((i % 10) + '0');
+			putchar((c % 10) + '0');
 			c++;
 		}
 		putchar('\n');
