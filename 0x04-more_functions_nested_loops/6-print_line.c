@@ -17,13 +17,14 @@ void print_line(int n)
 		while (a <= n)
 		{
 
-			_putchar('_');
+			putchar('_');
 			a++;
 		}
-	_putchar('\n');
+	putchar('\n');
 
 	}
 
 	else
-	_putchar('\n');
+
+	putchar('\n');
 }
