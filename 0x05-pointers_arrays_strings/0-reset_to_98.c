@@ -7,11 +7,9 @@
  */
 void reset_to_98(int *n)
 {
-	int *n;
-	int *p;
+	int *p = *n;
 
 	*p = 98;
-	n = 402;
 
 	printf("%d\n", n);
 	reset_to_98(&n);
