@@ -14,13 +14,7 @@ void print_rev(char *s)
 
 	for (i = len - 1; i >= 0; i--)
 	{
-		if (s[i] == ' ')
-		{
-			s[i] = '\0';
-
 			printf("%s ", &(s[i]) + 1);
-
-		}
 	}
 	printf("%s ", s);
 }
