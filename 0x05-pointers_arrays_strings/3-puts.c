@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
 #include "main.h"
 /**
  * _puts - prints puts
@@ -12,7 +10,7 @@ void _puts(char *str)
 
 	for (i = 0; *(str + i) != '\0'; i++)
 	{
-		_puts(*(str + i));
+		_putchar(*(str + i));
 	}
 
 	_putchar('\n');
