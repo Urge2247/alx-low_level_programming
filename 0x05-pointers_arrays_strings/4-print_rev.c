@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	for (i = _strlen(s) - 1; i >= 0; i--)
 	{
-		printf(*(s[i]) + 1);
+		printf((s[i]) + 1);
 	}
 	printf("%s ", s);
 }
