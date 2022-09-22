@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * *_strcat - prints concatenation of given strings
+ * *_strcat - prints concatenation of string
  *
  * @dest: a char to be added to fun
  * @src: another char to be added
@@ -11,5 +11,5 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	strcat(dest, src);	
+	strcat(dest, src);
 }
