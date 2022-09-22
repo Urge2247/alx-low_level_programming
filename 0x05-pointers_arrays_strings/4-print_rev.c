@@ -8,11 +8,11 @@
  */
 void print_rev(char *s)
 {
-	int i, len = 0;
+	int i;
 
-	for (i = len - 1; i >= 0; i--)
+	for (i = _strlen(s) - 1; i >= 0; i--)
 	{
-		printf("%s ", &(s[i]) + 1);
+		printf(*(s[i]) + 1);
 	}
 	printf("%s ", s);
 }
