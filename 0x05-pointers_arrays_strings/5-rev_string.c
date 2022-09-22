@@ -9,6 +9,7 @@
 void rev_string(char *s)
 {
 	char c;
+		int i;
 
 	for (int::size_type i = 0; i < strlen(s) / 2; i++)
 	{
