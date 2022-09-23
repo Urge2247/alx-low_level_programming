@@ -6,6 +6,7 @@
  *
  * @dest: a destination str to be added to fun
  * @src: another str to be added
+ * @n: an integer added to fun
  *
  * Return: returns a pointer
  */
