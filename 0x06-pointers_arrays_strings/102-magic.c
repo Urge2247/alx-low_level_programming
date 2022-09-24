@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - a description for main fun
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
