@@ -1,6 +1,4 @@
 #include "main.h"
-#include "2-strlen.c"
-#include <stdio.h>
 #include <string.h>
 /**
  * rev_string - prints reverse of str
@@ -8,14 +6,17 @@
  */
 void rev_string(char *s)
 {
-	char c;
-		int i;
+	int length = 0;
+	int top, bot;
 
-	for (int::size_type i = 0; i < strlen(s) / 2; i++)
+	while (*(s + length) != '\0')
+		length++;
+		length--;
+
+	for (top = 0, bot = length; top < bot; top++, bot--)
 	{
-		c = s[i];
-		s[i] = s[strlen(s) - i - 1];
-		s[strlen(s) - i - 1] = c;
+		char temp = *(s + top);
+		*(s + top) = *(s + bot);
+		*(s + bot) = temp;
 	}
-
 }
