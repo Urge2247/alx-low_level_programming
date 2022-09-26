@@ -3,7 +3,7 @@
 
 /**
  * main - prints positive or negative integer
- *
+ * @i: an int
  * Return: Always return 0
  */
 int main(void)
